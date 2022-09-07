@@ -1,0 +1,47 @@
+body
+{
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+#content
+{
+	width: 100%;
+	height: 600px;
+	background-color: lightblue;
+}
+
+#fuse
+{
+	position: absolute;
+	height: 50px;
+	width: 10px;
+	background-color: black;
+	border-radius: 3px;
+	left: 600px;
+	top: 200px;
+	cursor: pointer;
+	transition-duration: 0.2s;
+}
+
+#bomb
+{
+	height: 50px;
+	width: 50px;
+	border-radius: 50%;
+	background-color: black;
+	position: absolute;
+	left: 580px;
+	top: 225px;
+	cursor: pointer;
+	transition-duration: 0.2s;
+}
+
+.particle
+{
+	position: absolute;
+	border-left: 15px solid transparent;
+	border-right: 15px solid transparent;
+	border-bottom: 20px solid black;
+}
